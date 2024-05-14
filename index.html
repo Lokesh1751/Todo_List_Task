@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="innercontainer">
+        <h1 class="heading">TODO LIST</h1>
+        <img
+          src="https://imgs.search.brave.com/7-HTK5-w338LmAF5YBQdsYsxhOAKCMKusTLkPGL3i5s/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni8zNTY2LzM1NjY1/MTEucG5nP3NlbXQ9/YWlzX2h5YnJpZA"
+          alt="Image not found"
+          id="img"
+        />
+      </div>
+      <div id="inputsection">
+        <input type="text" id="input" placeholder="Add your task 🖊️" />
+        <button id="btn">+</button>
+      </div>
+      <span id="added"></span>
+      <span id="removed"></span>
+      <div id="popup">
+        <span id="all">All</span>
+        <span id="completed">Completed</span>
+        <span id="pending">Pending</span>
+        <span id="clear">Clear All</span>
+      </div>
+
+      <ul id="list"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
